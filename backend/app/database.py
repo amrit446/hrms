@@ -14,7 +14,6 @@ engine = create_engine(
     pool_pre_ping=True
 )
 
-print(engine.url)
 SessionLocal = sessionmaker(
     autocommit=False,
     autoflush=False,
